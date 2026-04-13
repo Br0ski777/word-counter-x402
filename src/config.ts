@@ -33,6 +33,44 @@ Do NOT use for language detection -- use text_detect_language instead. Do NOT us
         },
         required: ["text"],
       },
+      outputSchema: {
+          "type": "object",
+          "properties": {
+            "words": {
+              "type": "number",
+              "description": "Word count"
+            },
+            "characters": {
+              "type": "number",
+              "description": "Character count with spaces"
+            },
+            "charactersNoSpaces": {
+              "type": "number",
+              "description": "Character count without spaces"
+            },
+            "sentences": {
+              "type": "number",
+              "description": "Sentence count"
+            },
+            "paragraphs": {
+              "type": "number",
+              "description": "Paragraph count"
+            },
+            "readingTimeMinutes": {
+              "type": "number",
+              "description": "Estimated reading time in minutes"
+            },
+            "readingTimeSeconds": {
+              "type": "number",
+              "description": "Estimated reading time in seconds"
+            }
+          },
+          "required": [
+            "words",
+            "characters",
+            "sentences"
+          ]
+        },
     },
   ],
 };
