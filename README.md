@@ -37,7 +37,7 @@ Any x402-aware client ([`@x402/fetch`](https://www.npmjs.com/package/@x402/fetch
 
 | Tool | Method | Path | Price | Description |
 |---|---|---|---|---|
-| `text_count_words` | POST | `/api/count` | $0.001 | Count words, characters, sentences, paragraphs, and reading time |
+| `text_count_words` | POST | `/api/count` | $0.003 | Count words, characters, sentences, paragraphs, and reading time |
 
 ### `text_count_words`
 
