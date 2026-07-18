@@ -9,7 +9,7 @@ export const API_CONFIG: ApiConfig = {
     {
       method: "POST",
       path: "/api/count",
-      price: "$0.001",
+      price: "$0.003",
       description: "Count words, characters, sentences, paragraphs, and reading time",
       toolName: "text_count_words",
       toolDescription: `Use this when you need to count words, characters, sentences, or paragraphs in text. Returns comprehensive text statistics with reading time estimate.
